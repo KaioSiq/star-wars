@@ -7,6 +7,10 @@ $fontFamilyDefault: 'Roboto', sans-serif;
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background: $backGroundBlack;
   color: $fontColorWhite;
@@ -15,4 +19,15 @@ body{
 
 h1, h2, h3, h4{
   font-family: $fontFamilyDefault;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-left{
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
 }

@@ -9,9 +9,9 @@ Lucas ipsum dolor sit amet darth dooku palpatine jawa darth binks obi-wan solo w
 
 let HomeSectionTwo = `
 <section class="section background--two" style="background-image: url(${backgroundTwo})"> 
-    <div>
-        <img src="${darthVader}" alt="Vader" width="300px" height="auto">
-        <div>
+    <div class="container block-section--two">
+        <img src="${darthVader}" alt="Vader"">
+        <div "text-block--two">
             <p>${textContent}</p>
         </div>
     </div>

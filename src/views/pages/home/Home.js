@@ -8,9 +8,9 @@ let Home = {
   render: async () => {
       let view = `
           <div>
-          ${HomeSectionOne}
-          ${HomeSectionTwo}
-          ${floatImage}
+            ${HomeSectionOne}
+            ${HomeSectionTwo}
+            ${floatImage}
           </div>
       `;
 
